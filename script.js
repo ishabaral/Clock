@@ -1,6 +1,6 @@
-setInterval(funcPractise, 1000);
+setInterval(displayTime, 1000);
 
-function funcPractise() {
+function displayTime() {
     let todayDate = new Date();
     const day = ['Sun', 'mon', 'tue', 'wed', 'thru', 'fri', 'sat'];
     let currentTime = todayDate.getHours() + ":" + todayDate.getMinutes() + ":" + todayDate.getSeconds();
@@ -8,9 +8,26 @@ function funcPractise() {
     document.getElementById("clock").innerHTML = currentTime;
 }
 
-funcPractise();
+displayTime();
 
-
-function updateTitle() {
-    document.title = "JavaScript Practise";
+function blackColor() {
+    document.getElementById("watch-img").src = "https://i.imgur.com/iOeUBV7.png"
 }
+
+function blueColor() {
+    document.getElementById("watch-img").src = " https://i.imgur.com/Mplj1YR.png"
+}
+
+function pinkColor() {
+    document.getElementById("watch-img").src = "https://i.imgur.com/iOeUBV7.png"
+}
+function purpleColor() {
+    document.getElementById("watch-img").src = "https://i.imgur.com/xSIK4M8.png"
+}
+function redColor() {
+    document.getElementById("watch-img").src = "https://i.imgur.com/PTgQlim.png"
+}
+
+// function updateTitle() {
+//     document.title = "JavaScript Practise";
+// }
