@@ -19,7 +19,7 @@ function blueColor() {
 }
 
 function pinkColor() {
-    document.getElementById("watch-img").src = "https://i.imgur.com/iOeUBV7.png"
+    document.getElementById("watch-img").src = "https://i.imgur.com/Zygu7I3.png"
 }
 function purpleColor() {
     document.getElementById("watch-img").src = "https://i.imgur.com/xSIK4M8.png"
