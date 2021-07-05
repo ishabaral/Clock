@@ -14,6 +14,10 @@
     width: inherit;
 }
 
+.button-desc p{
+    font-size: 26px;
+
+}
 #clock {
     font-size: 34px;
     width: auto;
